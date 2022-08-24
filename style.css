@@ -30,7 +30,7 @@ button img {
   width: 150px;
   height: 150px;
 }
-button h6{
+button h6 {
   margin: 0;
   padding: 0;
 }
@@ -48,6 +48,9 @@ button h6{
   background-position-x: center;
 } */
 
-#dogImage {
-  height: 250px;
+#dogImage img {
+  height: auto;
+  width: auto;
+  max-height: 400px;
+  max-width: 300px;
 }
