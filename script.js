@@ -10,7 +10,7 @@ const getNewDog = () => {
     .then(apiResponse => apiResponse.json())
     .then(json => {
       console.log(json.message);
-      dogImageDiv.innerHTML = `<img src="${json.message}" height=250>`;
+      dogImageDiv.innerHTML = `<img src="${json.message}" height=400 width=300>`;
     });
 }
 
