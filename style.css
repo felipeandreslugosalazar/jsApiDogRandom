@@ -49,8 +49,5 @@ button h6 {
 } */
 
 #dogImage img {
-  height: auto;
-  width: auto;
-  max-height: 400px;
   max-width: 300px;
 }
